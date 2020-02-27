@@ -18,7 +18,7 @@ function doPost(e) {
   var tag = command[0]; //コマンド取得
   
   // 呟かれた内容がbot宛てでない場合はなにもしない。
-  if(!tag == "？飯") return null;
+  if(!tag == "お店") return null;
   
   var address = command[1]; //住所取得
   var budget =  command[2]; //予算取得
@@ -33,16 +33,6 @@ function doPost(e) {
     'text':  "こんなお店はどうですか？",
     }
   ]
-  
-  /* //なんかうまくいかない
-  shops.forEach(function(shop){
-    var meg = {
-      'type': 'text',
-      'text': shop.url,    
-    }
-    messages.push(meg);
-  });
-  */
   
   var meg1 = {
     'type': 'text',
