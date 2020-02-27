@@ -36,7 +36,7 @@ function handleMessage(e) {
   if (type === null) {
     if (userMessage === "予定") {
       cache.put("type", 1);
-      reply(replyToken, "予定日を教えてください！\n「06/17, 6月17日」などの形式なら大丈夫です！");
+      reply(replyToken, "予定日を教えてください！\n「00/00, 00月00日」などの形式なら大丈夫です！");
     } else if (userMessage === "予定教えて") {
       reply(replyToken, getEvents());
     } else {
