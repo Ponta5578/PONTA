@@ -20,8 +20,8 @@ function doPost(e) {
   // 呟かれた内容がbot宛てでない場合はなにもしない。
   if(!tag == "お店") return null;
   
-  var address = command[1]; //住所取得
-  var budget =  command[2]; //予算取得
+  var address = command[1]; //住所
+  var budget =  command[2]; //予算
   
   //ぐるなびに問合せて店情報を取得
   var shops = getShopData(address, budget);
