@@ -52,7 +52,7 @@ function doPost(e) {
   }
   messages.push(meg3);
   
-  //lineで返答する
+  //lineで返答
   UrlFetchApp.fetch(LINE_URL, {
     'headers': {
       'Content-Type': 'application/json; charset=UTF-8',
