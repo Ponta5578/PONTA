@@ -1,4 +1,4 @@
-var LINE_TOKEN = '0hTBGcWD6tP7+97w3BT+IwvLAJ9/nn/OIx9HYLnXJPjBX5ugGoElCN8M9EoNrR+HWiVkL90p5+clnH/uIm9OIqwmlrO1Hubqp/qomywEm/IsAsXi/jl2pPG/4HZWEMD6IeCRZHI0JOXjOfUmJpwD8gdB04t89/1O/w1cDnyilFU=';
+var LINE_TOKEN = 'Tg4d2DQmNGMOkTCTOrhndbIaGhmGAVN2gLraOGnhW+eWjgm+6sYNitYUD285dlk5WiVkL90p5+clnH/uIm9OIqwmlrO1Hubqp/qomywEm/IIqGtkAdquq4wJ0ERvAeYTRgwwjSkMbnah3mTkXtp+cgdB04t89/1O/w1cDnyilFU=';
 var LINE_URL = 'https://api.line.me/v2/bot/message/reply';
  
 //ぐるなび web Service のアクセスキー
